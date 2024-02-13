@@ -96,3 +96,42 @@ p {
 .copo-pequeno:hover {
     transform: translateY(-100px);
 }
+
+@media screen and (max-width:900px) {
+
+    .circulo {
+        background: #017143;
+        width: 50%;
+        height: 50%;
+        position: absolute;
+        top: 400px;
+        left: 250px;
+        clip-path: circle(100px at right 100px);
+        
+        
+}
+
+h2{
+    font-size: 30px;
+    /*tamanho da fonte*/
+    font-weight: 500;
+    /*grossura das letras*/}
+
+    span {
+        color: #017143;
+        font-size: 35px;
+        font-weight: 900;}
+        p {
+            font-size: 8px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        .conteudo {
+            width: 50%;
+            height: 50%;
+            display:block;
+            
+            align-items: center;
+            margin-top: 10px;}
+}
+    
